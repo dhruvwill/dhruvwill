@@ -11,7 +11,7 @@ export const Blog = ({ title, date, description }: BlogProps) => {
   const [hovered, setHovered] = useState(false);
   return (
     <div
-      className="blog min-w-[360px] p-5 flex flex-col justify-between h-full cursor-pointer"
+      className="blog min-w-[360px] max-w-xl flex-grow p-5 flex flex-col justify-between h-full cursor-pointer"
       onMouseEnter={() => {
         setHovered(true);
       }}
@@ -66,14 +66,14 @@ export const BlogContainer = ({ className, children }: BlogContainerProps) => {
     >
       <style scoped>
         {`
-              .blogs::-webkit-scrollbar {
-                display : none;
-              }
-              .blogs {
-                -ms-overflow-style: none;
-                scrollbar-width: none;
-              }
-            `}
+          .blogs::-webkit-scrollbar {
+            display : none;
+          }
+          .blogs {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+          }
+        `}
       </style>
       {children}
     </div>

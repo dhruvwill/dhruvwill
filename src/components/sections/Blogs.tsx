@@ -4,14 +4,16 @@ import Heading from "@/components/ui/Heading";
 import { Blog, BlogContainer } from "@/components/Blog";
 import { motion } from "framer-motion";
 import { HiArrowUpRight } from "react-icons/hi2";
+import { useRouter } from "next/navigation";
 
 type Props = {};
 
 const Blogs = (props: Props) => {
+  const router = useRouter();
   return (
-    <div className="py-6 sm:ml-64">
-      <div className="max-w-4xl mx-auto p-4 border-gray-200 rounded-lg dark:border-gray-700">
-        <Heading heading="Ink" subHeading="Writings" />
+    <div className="py-6">
+      <div className="h-full max-w-4xl mx-auto p-4 border-gray-200 rounded-lg dark:border-gray-700">
+        <Heading heading="Ink" subHeading="Recent Writings" />
         <BlogContainer>
           <Blog
             title={"A Few Thoughts on Spending Money"}
@@ -65,6 +67,7 @@ const Blogs = (props: Props) => {
             stiffness: 260,
             damping: 20,
           }}
+          onClick={() => router.push("/writing")}
         >
           <span className="sr-only">All Writing</span>
           <span className="mx-1">*</span>Writings{" "}

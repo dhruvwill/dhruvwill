@@ -25,13 +25,15 @@ type Props = {};
 
 const Sidebar = (props: Props) => {
   const path = usePathname();
-  const { sidebarOpen, closeSidebar } = useAppStore((state) => state);
+  const { sidebarOpen, closeSidebar, openBlogSidebar } = useAppStore(
+    (state) => state
+  );
   return (
     <>
       {/* Overlay */}
       {sidebarOpen && (
         <div
-          className="fixed inset-0 bg-background bg-opacity-50 z-30 sm:hidden"
+          className="fixed inset-0 bg-background bg-opacity-30 z-30 md:hidden"
           onClick={closeSidebar}
         ></div>
       )}
@@ -63,6 +65,7 @@ const Sidebar = (props: Props) => {
             </span>
           }
           active={path === "/writing"}
+          onClick={openBlogSidebar}
         />
         <SidebarItem
           title="Projects"
@@ -76,8 +79,8 @@ const Sidebar = (props: Props) => {
           link="/skills"
           icon={<HiMiniRectangleStack size={16} />}
           endIcon={
-            <span className="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">
-              Pro
+            <span className="text-2xl inline-flex items-center justify-center px-2 ms-3 rounded-full font-medium text-gray-800 dark:text-green-700">
+              •
             </span>
           }
           active={path === "/skills"}

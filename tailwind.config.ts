@@ -74,6 +74,9 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      cursor: {
+        ne: "url(/assets/cursor/ne2.png), ne-resize",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

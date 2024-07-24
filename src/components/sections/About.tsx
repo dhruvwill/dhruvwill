@@ -1,13 +1,26 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Heading from "@/components/ui/Heading";
 
-type Props = {};
+const about = [
+  { title: "Certified Taxation Practitioner", accent: "#FFD700" },
+  { title: "Startup Enthusiast", accent: "#00CED1" },
+  { title: "Loves Investments & Financial Analysis", accent: "#32CD32" },
+];
 
-const About = (props: Props) => {
+const About = () => {
   return (
-    <div className="py-6 sm:ml-64">
-      <div className="max-w-4xl mx-auto p-4 border-gray-200 rounded-lg dark:border-gray-700">
-        <Heading heading="By the Night" subHeading="More About Me" />
+    <div className="max-w-4xl mx-auto px-4 py-6 border-gray-200 rounded-lg dark:border-gray-700">
+      <Heading heading="The Other Side" subHeading="More About Me" />
+      <div className="flex flex-wrap gap-2 my-5 bg-background select-none">
+        {about.map((item, index) => (
+          <div
+            key={index}
+            className="relative border-2 p-2 transition-all duration-300 ease-in-out overflow-hidden"
+          >
+            <span className="relative z-10">{item.title}</span>
+          </div>
+        ))}
       </div>
     </div>
   );

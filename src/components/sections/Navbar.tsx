@@ -9,7 +9,8 @@ import Logo from "../Logo";
 type Props = {};
 const ubuntu = Ubuntu({ weight: "500", subsets: ["latin"] });
 const Navbar = (props: Props) => {
-  const { toggleSidebar } = useAppStore((state) => state);
+  const { toggleSidebar, sidebarOpen, setBlogSidebar, blogSidebarOpen } =
+    useAppStore((state) => state);
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-gray-200 bg-background bg-starry dark:border-gray-700">
       <div className="px-3 py-3 lg:px-5 lg:pl-3">
@@ -20,8 +21,11 @@ const Navbar = (props: Props) => {
               data-drawer-toggle="logo-sidebar"
               aria-controls="logo-sidebar"
               type="button"
-              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              onClick={toggleSidebar}
+              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              onClick={() => {
+                toggleSidebar();
+                setBlogSidebar(!sidebarOpen ? blogSidebarOpen : false);
+              }}
             >
               <span className="sr-only">Open sidebar</span>
               <svg

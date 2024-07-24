@@ -5,7 +5,7 @@ import Projects from "@/components/sections/Projects";
 import Work from "@/components/sections/Work";
 export default function Home() {
   return (
-    <main className="h-screen overflow-scroll">
+    <main className="h-[calc(100vh-64px)] overflow-scroll md:pl-64 mt-16">
       <Hero />
       <Work />
       <Projects />
