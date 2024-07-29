@@ -63,14 +63,14 @@ const Hero = (props: Props) => {
           </div>
           <QuickLinks>
             <QLink
-              href="/about"
+              href="/"
               text="Learn More about me"
               icon={
                 <CgProfile className="h-10 w-10 border border-foreground/20 rounded-sm p-2 text-neutral-400" />
               }
             />
             <QLink
-              href="/blog"
+              href="/writing"
               text="Read a recent blog"
               icon={
                 <TbWriting className="h-10 w-10 border border-foreground/20 rounded-sm p-2 text-neutral-400" />

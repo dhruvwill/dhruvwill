@@ -15,76 +15,44 @@ const Projects = (props: Props) => {
       <Heading heading="Skillset in action" subHeading="Featured Projects" />
       <ProjectContainer>
         <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
+          title={"APAS | Annual Performance Assessment System"}
           date={"21 Jan, 2024"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
+            "APAS is a system that helps in the annual performance assessment of employees. It is a web-based application that helps in the evaluation of employees based on their performance throughout the year."
           }
-          image={"https://via.placeholder.com/150"}
+          src={"/projects/APAS_Showcase.mp4"}
         />
         <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
+          title={"Flamedots | Customized Sneakers"}
           date={"21 Jan, 2024"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
+            "Flamedots is a platform that allows users to customize their sneakers. It is a web-based application that helps users to design their sneakers according to their preferences. SSIP Funded Project"
           }
-          image={"https://via.placeholder.com/150"}
+          src={"/projects/Flamedots_Showcase.mp4"}
         />
         <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
+          title={"Studydx | Helping Students Study Better"}
           date={"21 Jan, 2024"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
+            "Studydx is a platform that helps students study better. It is a web-based application that provides students with resources and tools to help them study effectively. Currently sharing the PYQ for the students. 5k Peak monthly active users."
           }
-          image={"https://via.placeholder.com/150"}
+          src={"/projects/Studydx_Showcase.mp4"}
         />
         <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
+          title={"Scribbd | Draw and Guess Multiplayer game"}
           date={"21 Jan, 2024"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
+            "Scribbd is a multiplayer game where players take turns drawing and guessing words. It is a web-based application that allows users to play with their friends and family. Scribbl Clone"
           }
-          image={"https://via.placeholder.com/150"}
+          src={"/projects/Scribbd_Showcase.mp4"}
         />
         <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
+          title={"Moveon | Web3"}
           date={"21 Jan, 2024"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
+            "Moveon is a decentralized incentivized game that allows users to earn rewards by participating in the game. It is a web-based application that uses blockchain technology to provide users with a secure and transparent gaming experience."
           }
-          image={"https://via.placeholder.com/150"}
-        />
-        <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
-          date={"21 Jan, 2024"}
-          description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-          }
-          image={"https://via.placeholder.com/150"}
-        />
-        <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
-          date={"21 Jan, 2024"}
-          description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-          }
-          image={"https://via.placeholder.com/150"}
-        />
-        <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
-          date={"21 Jan, 2024"}
-          description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-          }
-          image={"https://via.placeholder.com/150"}
-        />
-        <ProjectCard
-          title={"A Few Thoughts on Spending Money"}
-          date={"21 Jan, 2024"}
-          description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-          }
-          image={"https://via.placeholder.com/150"}
+          src={"/projects/Moveon_Showcase.mp4"}
         />
       </ProjectContainer>
 

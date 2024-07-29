@@ -14,25 +14,25 @@ import { HiArrowUpRight } from "react-icons/hi2";
 const work = {
   workHistory: [
     {
-      role: "App Developer",
+      role: "App Developer Intern",
       company: "Prashant Gamatex (Prasad Group)",
       duration: "May 2024 - Aug 2024",
       additionalInfo:
-        "Developed mobile applications using React Native. Implemented key features such as user authentication and real-time data synchronization.",
+        "Developed cross platform mobile application using React Native (Expo). Created a robust backend using Node.js, Express, Multer & JWT. 100% Adoption in 2 weeks. ",
     },
     {
-      role: "Web Developer",
+      role: "Web Developer Intern",
       company: "PDEU Admin",
       duration: "Jan 2023 - July 2023",
       additionalInfo:
-        "Created responsive web applications using React. Integrated RESTful APIs and implemented state management using Redux.",
+        "Developed a web-based application for the university admin and HR department for annual evaluation of the employees using Django, BootstrapCSS, Javascript, and SQLite. Deployed on Private VM using Nginx and Gunicorn.",
     },
     {
       role: "Instructor (Volunteer)",
       company: "CDAC Govt.",
       duration: "Sep 2022 - Jan 2023",
       additionalInfo:
-        "Conducted programming workshops for beginners. Taught fundamentals of web development including HTML, CSS, and JavaScript.",
+        "Conducted programming workshops for beginners. Taught fundamentals of web development including HTML, CSS, JavaScript & React. Taught Programming using C, C++, Java and Python.",
     },
   ],
   workSummary: {

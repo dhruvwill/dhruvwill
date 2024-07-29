@@ -15,6 +15,7 @@ import {
   HiTrophy,
   HiMiniDocumentDuplicate,
 } from "react-icons/hi2";
+import { CiTimer } from "react-icons/ci";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { PiGraduationCapFill } from "react-icons/pi";
 import { GrProjects, GrMail } from "react-icons/gr";
@@ -60,11 +61,13 @@ const Sidebar = (props: Props) => {
           link="/writing"
           icon={<HiMiniDocumentDuplicate size={16} />}
           endIcon={
-            <span className="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-accent bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
-              3
-            </span>
+            <CiTimer size={20} />
+            // <span className="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-accent bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
+            //   3
+            // </span>
           }
           active={path === "/writing"}
+          disabled
           onClick={openBlogSidebar}
         />
         <SidebarItem
@@ -106,7 +109,7 @@ const Sidebar = (props: Props) => {
         <SidebarSeperatorWithTitle title="Socials" />
         <SidebarItem
           title="Resume"
-          link="https://drive.google.com/file/d/180Z3Mpf4osta0POa_IhVOdxmlzBB8LTv/view?usp=drive_link"
+          link="https://drive.google.com/file/d/1-7O1lQtdZBMLv454SYMtPu3n6DpWhXDg/view?usp=drive_link"
           icon={<MdDocumentScanner size={16} />}
           endIcon={<HiArrowUpRight size={16} />}
           externalLink

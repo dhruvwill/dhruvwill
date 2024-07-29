@@ -17,7 +17,7 @@ const skillCategories = [
       "HTML",
       "CSS (Bootstrap, Tailwind)",
       "React",
-      "Router",
+      "React Router",
       "Redux",
       "Zustand",
       "React Query",
@@ -25,8 +25,8 @@ const skillCategories = [
     color: "from-blue-200 to-teal-200",
   },
   {
-    title: "Backend",
-    skills: ["Node.js (Express)", "Django", "Flask", "Socket.io"],
+    title: "Backend & Frameworks",
+    skills: ["Node.js (Express)", "Next.js", "Django", "Flask", "Socket.io"],
     color: "from-green-200 to-lime-200",
   },
   {
@@ -36,7 +36,7 @@ const skillCategories = [
   },
   {
     title: "API",
-    skills: ["REST", "SOAP", "GraphQL"],
+    skills: ["REST", "SOAP"],
     color: "from-red-200 to-pink-200",
   },
   {
@@ -45,18 +45,28 @@ const skillCategories = [
     color: "from-indigo-200 to-purple-200",
   },
   {
-    title: "DevOps & Cloud",
-    skills: ["Git", "GitHub", "GitHub Actions", "Docker", "AWS", "GCP"],
+    title: "Cloud, DevOps & Server",
+    skills: [
+      "Linux",
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "Docker",
+      "AWS",
+      "GCP",
+      "Apache",
+      "Nginx",
+    ],
     color: "from-cyan-200 to-blue-200",
   },
   {
-    title: "CMS & Frameworks",
-    skills: ["Strapi", "Ghost", "Next.js"],
+    title: "CMS",
+    skills: ["Strapi"],
     color: "from-fuchsia-200 to-purple-200",
   },
   {
     title: "Other",
-    skills: ["Linux", "Nginx", "Apache", "Postman"],
+    skills: ["Postman"],
     color: "from-amber-200 to-orange-200",
   },
 ];

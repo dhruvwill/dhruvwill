@@ -41,7 +41,9 @@ type SidebarItemProps = {
   className?: string;
   active?: boolean;
   onClick?: () => void;
+  disabled?: boolean; // New prop for disabled state
 };
+
 export const SidebarItem = ({
   icon,
   title,
@@ -51,38 +53,58 @@ export const SidebarItem = ({
   className,
   active,
   onClick,
+  disabled = false, // Default to false
 }: SidebarItemProps) => {
   const { closeSidebar } = useAppStore((state) => state);
-  const handleClick = () => {
+
+  const handleClick = (e: React.MouseEvent) => {
+    if (disabled) {
+      e.preventDefault();
+      return;
+    }
     if (onClick) {
       onClick();
     }
     closeSidebar();
   };
+
+  const content = (
+    <>
+      {icon && (
+        <span className="flex items-center justify-center w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded-sm me-3">
+          {icon}
+        </span>
+      )}
+      <span className="font-medium">{title}</span>
+      {endIcon && <span className="ms-auto">{endIcon}</span>}
+    </>
+  );
+
   return (
     <li
       className={cn(
         `font-light text-sm w-full flex items-center ps-2`,
-        className
+        className,
+        { "opacity-50 cursor-not-allowed": disabled }
       )}
       onClick={handleClick}
     >
-      <Link
-        href={link}
-        {...(externalLink
-          ? { target: "_blank", rel: "noopener noreferrer" }
-          : {})}
-        className="flex items-center w-full m-2 rounded-sm text-gray-900 dark:text-white"
-      >
-        {icon && (
-          <span className="flex items-center justify-center w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded-sm me-3">
-            {icon}
-          </span>
-        )}
-        <span className="font-medium">{title}</span>
-        {endIcon && <span className="ms-auto">{endIcon}</span>}
-      </Link>
-      {active && (
+      {disabled ? (
+        <div className="flex items-center w-full m-2 rounded-sm text-gray-900 dark:text-white">
+          {content}
+        </div>
+      ) : (
+        <Link
+          href={link}
+          {...(externalLink
+            ? { target: "_blank", rel: "noopener noreferrer" }
+            : {})}
+          className="flex items-center w-full m-2 rounded-sm text-gray-900 dark:text-white"
+        >
+          {content}
+        </Link>
+      )}
+      {active && !disabled && (
         <motion.div
           initial={{ height: 0 }}
           animate={{ height: 40 }}
@@ -96,7 +118,7 @@ export const SidebarItem = ({
 
 type SidebarBlogItemProps = {
   title: string;
-  date: Date;
+  date: string;
   link: string;
   className?: string;
 };
@@ -118,10 +140,11 @@ export const SidebarBlogItem = ({
             {title}
           </span>
           <span className="text-xs text-gray-500 dark:text-gray-400 mb-1">
-            {format(date, "MMMM d, yyyy")}
+            {/* {format(date, "MMMM d, yyyy")} */}
+            {date}
           </span>
         </div>
-        <HiArrowRight size={16} className="min-w-4" />
+        <HiArrowRight size={16} className="min-w-4 m-2" />
       </Link>
     </li>
   );

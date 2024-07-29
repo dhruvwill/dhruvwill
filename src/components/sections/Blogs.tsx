@@ -16,46 +16,23 @@ const Blogs = (props: Props) => {
         <Heading heading="Ink" subHeading="Recent Writings" />
         <BlogContainer>
           <Blog
-            title={"A Few Thoughts on Spending Money"}
-            date={"21 Jan, 2024"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-            }
+            title="Node.js with TypeScript: The Correct Way"
+            date="To be Released"
+            description="Discover best practices for integrating TypeScript into your Node.js projects. From setup to advanced patterns, learn how to leverage type safety and modern JavaScript features to build robust, scalable applications."
+            disabled
+          />
+
+          <Blog
+            title="Semantic Software Versioning: A Comprehensive Guide"
+            date="To be Released"
+            description="Demystify the art of version numbering with our in-depth look at Semantic Versioning (SemVer). Learn how to effectively communicate changes, manage dependencies, and maintain backward compatibility in your software projects."
+            disabled
           />
           <Blog
-            title={"A Few Thoughts on Spending Money"}
-            date={"21 Jan, 2024"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-            }
-          />
-          <Blog
-            title={"A Few Thoughts on Spending Money"}
-            date={"21 Jan, 2024"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-            }
-          />
-          <Blog
-            title={"A Few Thoughts on Spending Money"}
-            date={"21 Jan, 2024"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-            }
-          />
-          <Blog
-            title={"A Few Thoughts on Spending Money"}
-            date={"21 Jan, 2024"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-            }
-          />
-          <Blog
-            title={"A Few Thoughts on Spending Money"}
-            date={"21 Jan, 2024"}
-            description={
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus ea nihil."
-            }
+            title="Advanced VSCode Tips and Tricks"
+            date="To be Released"
+            description="Unlock the full potential of Visual Studio Code with our comprehensive guide. Learn keyboard shortcuts, powerful extensions, and customization techniques that will supercharge your coding efficiency."
+            disabled
           />
         </BlogContainer>
         <motion.button

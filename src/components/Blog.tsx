@@ -2,27 +2,52 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 import { useState } from "react";
+
 type BlogProps = {
   title: string;
   date: string;
   description: string;
+  disabled?: boolean;
+  onClick?: () => void;
 };
-export const Blog = ({ title, date, description }: BlogProps) => {
+
+export const Blog = ({
+  title,
+  date,
+  description,
+  disabled = false,
+  onClick,
+}: BlogProps) => {
   const [hovered, setHovered] = useState(false);
+
+  const handleClick = () => {
+    if (!disabled && onClick) {
+      onClick();
+    }
+  };
+
   return (
     <div
-      className="blog min-w-[360px] max-w-xl flex-grow p-5 flex flex-col justify-between h-full cursor-pointer"
+      className={cn(
+        "blog min-w-[360px] max-w-xl flex-grow p-5 flex flex-col justify-between h-full",
+        {
+          "cursor-pointer": !disabled,
+          "cursor-not-allowed opacity-50": disabled,
+        }
+      )}
       onMouseEnter={() => {
-        setHovered(true);
+        if (!disabled) setHovered(true);
       }}
       onMouseLeave={() => {
-        setHovered(false);
+        if (!disabled) setHovered(false);
       }}
+      onClick={handleClick}
     >
       <h2
-        className={`text-lg font-medium font-degular my-2 ${
-          hovered ? "underline underline-offset-2 decoration-slate-400" : ""
-        }`}
+        className={cn("text-lg font-medium font-degular my-2", {
+          "underline underline-offset-2 decoration-slate-400":
+            hovered && !disabled,
+        })}
       >
         {title.length > 100 ? title.slice(0, 100) + "..." : title}
       </h2>
@@ -32,9 +57,14 @@ export const Blog = ({ title, date, description }: BlogProps) => {
           ? description.slice(0, 100) + "..."
           : description}
       </p>
-      <div className={`w-full flex justify-end  ${hovered ? "pe-0" : "pe-3"}`}>
+      <div
+        className={cn("w-full flex justify-end", {
+          "pe-0": hovered && !disabled,
+          "pe-3": !hovered || disabled,
+        })}
+      >
         <svg
-          className="w-6 h-6 "
+          className="w-6 h-6"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"

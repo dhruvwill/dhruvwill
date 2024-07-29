@@ -38,14 +38,14 @@ Project GIF to be added
 - Ingenium
 - nft-token, moveone cms
 - Scribbd, Scribbd Server
-- lib
+- lib \*
 - split-flap
 - iamdonor
 - buzz feed vga
 - CKI
-- Khamma Ghani
+- Khamma Ghani \*
 - SIH Appointment Scheduling
-- Gemini API Trybot
+- Gemini API Trybot \*
 - Statue of Unity
 - Cas
 - mathpoint
