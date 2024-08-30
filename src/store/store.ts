@@ -1,4 +1,3 @@
-import BlogSidebar from "@/components/sections/BlogSidebar";
 import { createStore } from "zustand/vanilla";
 
 export type AppState = {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -22,6 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://app.10xlaunch.ai/widget"
+          data-app-id="c69d1354-98cf-4763-a3aa-daf45c0ba6d0"
+          async
+          defer
+        />
+      </head>
       <body className={cn("bg-starry", inter.className)}>
         <AppStoreProvider>
           <ThemeProvider
