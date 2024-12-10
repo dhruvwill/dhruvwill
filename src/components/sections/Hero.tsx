@@ -3,7 +3,7 @@ import React from "react";
 import { ClickImageElement, HoverImageLink } from "@/components/HoveringImage";
 import IndianTime from "@/components/IndianClock";
 import QuickLinks, { QLink } from "@/components/sections/QuickLinks";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Link from "next/link";
 import { CgProfile } from "react-icons/cg";
 import { GoProjectRoadmap } from "react-icons/go";

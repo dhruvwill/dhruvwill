@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Heading from "@/components/ui/Heading";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { HiArrowUpRight } from "react-icons/hi2";
 import { ProjectCard, ProjectContainer } from "../Project";
 import { useRouter } from "next/navigation";

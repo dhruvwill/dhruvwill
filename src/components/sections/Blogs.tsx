@@ -2,7 +2,7 @@
 import React from "react";
 import Heading from "@/components/ui/Heading";
 import { Blog, BlogContainer } from "@/components/Blog";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { HiArrowUpRight } from "react-icons/hi2";
 import { useRouter } from "next/navigation";
 

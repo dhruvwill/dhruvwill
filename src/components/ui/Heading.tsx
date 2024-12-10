@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Ubuntu } from "next/font/google";
 import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 type Props = {
   heading: string;

@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { format } from "date-fns";
 import { useAppStore } from "@/hooks/useAppStore";
 import { HiArrowRight } from "react-icons/hi2";

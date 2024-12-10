@@ -1,7 +1,7 @@
 "use client";
 import { BrowserComponent } from "@/components/Browser";
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import React from "react";
 import { RiGithubLine } from "react-icons/ri";
 import { CgMediaLive } from "react-icons/cg";
