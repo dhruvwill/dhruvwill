@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Inter } from "next/font/google";
 import Script from "next/script";
-import "./globals.css";
+import "@/styles/globals.css";
 import { AppStoreProvider } from "@/providers/StoreProvider";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/sections/Navbar";
