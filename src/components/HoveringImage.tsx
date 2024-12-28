@@ -83,6 +83,7 @@ export const HoverImageLink: React.FC<HoverImageLinkProps> = ({
             width={imageWidth}
             height={imageHeight}
             className="object-cover rounded-lg shadow-lg brightness-75"
+            priority
           />
         </div>
       )}
@@ -162,6 +163,7 @@ export const ClickImageElement: React.FC<ClickImageElementProps> = ({
             width={imageWidth}
             height={imageHeight}
             className="object-cover rounded-lg shadow-lg brightness-75"
+            priority
           />
         </div>
       )}
