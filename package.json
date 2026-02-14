@@ -30,7 +30,7 @@
     "locomotive-scroll": "^4.1.4",
     "lucide-react": "^0.400.0",
     "meshline": "^3.3.1",
-    "next": "14.2.4",
+    "next": "14.2.35",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-beautiful-dnd": "^13.1.1",
