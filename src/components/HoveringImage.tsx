@@ -59,6 +59,15 @@ export const HoverImageLink: React.FC<HoverImageLinkProps> = ({
 
   return (
     <div className={cn("relative inline-block", className)}>
+      {/* Preload image so it's ready on hover */}
+      <Image
+        src={imageUrl}
+        alt=""
+        width={imageWidth}
+        height={imageHeight}
+        priority
+        className="hidden"
+      />
       <span
         ref={linkRef}
         className="cursor-pointer underline underline-offset-4 z-10"
@@ -142,6 +151,15 @@ export const ClickImageElement: React.FC<ClickImageElementProps> = ({
 
   return (
     <div className={cn("inline-block", className)}>
+      {/* Preload image so it's ready on click */}
+      <Image
+        src={imageUrl}
+        alt=""
+        width={imageWidth}
+        height={imageHeight}
+        priority
+        className="hidden"
+      />
       <div ref={triggerRef} className="cursor-pointer" onClick={handleClick}>
         {children}
       </div>

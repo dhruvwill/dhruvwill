@@ -14,13 +14,43 @@ const page = (props: Props) => {
           subHeading="Bringing Ideas to Life"
           className="border-b mb-5"
         />
+
+        {/* ── Featured ── */}
+        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">
+          ✦ Featured
+        </p>
         <ProjectContainer>
+          <ProjectCard
+            image="/me.png"
+            videoSrc="/projects/writeslike_ai_showcase.mp4"
+            title="WritesLike.ai"
+            description="AI-powered LinkedIn content creator. Turn raw ideas or audio notes into polished, scroll-stopping posts using style mimicry, dynamic tone adjustment, and a RAG-based voice training system. Built with Next.js, TypeScript, OpenAI & Anthropic APIs."
+          />
+          <ProjectCard
+            image="/me.png"
+            videoSrc="/projects/gtfo_dapp_showcase.mp4"
+            title="GTFO dApp"
+            description="Decentralized bulk asset transfer platform. Send 40+ ERC-20 tokens and NFTs (ERC-721 & ERC-1155) in a single transaction across Ethereum, Polygon, BSC, Optimism & Arbitrum. Built with Next.js, TypeScript, ethers.js & Solidity smart contracts."
+          />
           <ProjectCard
             image="/me.png"
             videoSrc="/projects/APAS_Showcase.mp4"
             title="APAS"
             description="Annual Performance Assessment System"
           />
+          <ProjectCard
+            image="/me.png"
+            videoSrc="/projects/Moveon_Showcase.mp4"
+            title="Moveon | Web3"
+            description="Decentralized Incentivized Game"
+          />
+        </ProjectContainer>
+
+        {/* ── Other Projects ── */}
+        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mt-8 mb-3">
+          Other Projects
+        </p>
+        <ProjectContainer>
           <ProjectCard
             image="/me.png"
             videoSrc="/projects/Flamedots_Showcase.mp4"
@@ -44,12 +74,6 @@ const page = (props: Props) => {
             videoSrc="/projects/Investify_Showcase.mp4"
             title="Investify"
             description="AU Hackathon | Finals"
-          />
-          <ProjectCard
-            image="/me.png"
-            videoSrc="/projects/Moveon_Showcase.mp4"
-            title="Moveon | Web3"
-            description="Decentralized Incentivized Game"
           />
           <ProjectCard
             image="/me.png"

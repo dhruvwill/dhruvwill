@@ -32,10 +32,19 @@ const Hero = (props: Props) => {
         <div className="flex flex-col xl:flex-row xl:divide-x dark:divide-gray-700 divide-gray-200">
           <div className="max-w-xl flex flex-col gap-7 pt-6 pr-6">
             <p className="text-neutral-600 dark:text-gray-100">
-              I&apos;m a Full Stack Developer and Cloud Engineer with expertise
-              in building cross-platform mobile apps. I am passionate about
-              creating highly functional, minimal applications that can make a
-              significant impact in the community.
+              I&apos;m a Full Stack Developer and Cloud Engineer, currently
+              building{" "}
+              <a
+                href="https://designinstantly.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:underline"
+              >
+                Design Instantly
+              </a>
+              . I have expertise in building scalable web and mobile apps, AI
+              integrations, and cloud infrastructure. Passionate about creating
+              highly functional products that make a significant impact.
             </p>
             <p className="text-neutral-600 dark:text-gray-100 italic border-l-2 pl-3">
               &quot; From the shadows, until I get there. &quot;

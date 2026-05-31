@@ -3,8 +3,9 @@ import React, { useEffect, useState } from "react";
 import Heading from "@/components/ui/Heading";
 
 const about = [
+  { title: "Founder @ Design Instantly", accent: "#FF6B6B" },
   { title: "Certified Taxation Practitioner", accent: "#FFD700" },
-  { title: "Startup Enthusiast", accent: "#00CED1" },
+  { title: "SSIP Grantee, 2L+ Startup Grant", accent: "#00CED1" },
   { title: "Loves Investments & Financial Analysis", accent: "#32CD32" },
 ];
 

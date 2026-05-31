@@ -15,42 +15,34 @@ const Projects = (props: Props) => {
       <Heading heading="Skillset in action" subHeading="Featured Projects" />
       <ProjectContainer>
         <ProjectCard
-          title={"APAS | Annual Performance Assessment System"}
-          date={"21 Jan, 2024"}
+          title={"WritesLike.ai"}
+          date={"2024"}
           description={
-            "APAS is a system that helps in the annual performance assessment of employees. It is a web-based application that helps in the evaluation of employees based on their performance throughout the year."
+            "AI-powered LinkedIn content creator. Turn raw ideas or audio notes into polished, scroll-stopping posts using style mimicry, dynamic tone adjustment, and a RAG-based voice training system. Built with Next.js, TypeScript, OpenAI & Anthropic APIs."
+          }
+          src={"/projects/writeslike_ai_showcase.mp4"}
+        />
+        <ProjectCard
+          title={"GTFO dApp"}
+          date={"2024"}
+          description={
+            "Decentralized bulk asset transfer platform. Send 40+ ERC-20 tokens and NFTs (ERC-721 & ERC-1155) in a single transaction across Ethereum, Polygon, BSC, Optimism & Arbitrum. Built with Next.js, TypeScript, ethers.js & Solidity smart contracts."
+          }
+          src={"/projects/gtfo_dapp_showcase.mp4"}
+        />
+        <ProjectCard
+          title={"APAS"}
+          date={"2024"}
+          description={
+            "Annual Performance Assessment System. A web-based application for evaluating employees based on their performance throughout the year."
           }
           src={"/projects/APAS_Showcase.mp4"}
         />
         <ProjectCard
-          title={"Flamedots | Customized Sneakers"}
-          date={"21 Jan, 2024"}
-          description={
-            "Flamedots is a platform that allows users to customize their sneakers. It is a web-based application that helps users to design their sneakers according to their preferences. SSIP Funded Project"
-          }
-          src={"/projects/Flamedots_Showcase.mp4"}
-        />
-        <ProjectCard
-          title={"Studydx | Helping Students Study Better"}
-          date={"21 Jan, 2024"}
-          description={
-            "Studydx is a platform that helps students study better. It is a web-based application that provides students with resources and tools to help them study effectively. Currently sharing the PYQ for the students. 5k Peak monthly active users."
-          }
-          src={"/projects/Studydx_Showcase.mp4"}
-        />
-        <ProjectCard
-          title={"Scribbd | Draw and Guess Multiplayer game"}
-          date={"21 Jan, 2024"}
-          description={
-            "Scribbd is a multiplayer game where players take turns drawing and guessing words. It is a web-based application that allows users to play with their friends and family. Scribbl Clone"
-          }
-          src={"/projects/Scribbd_Showcase.mp4"}
-        />
-        <ProjectCard
           title={"Moveon | Web3"}
-          date={"21 Jan, 2024"}
+          date={"2023"}
           description={
-            "Moveon is a decentralized incentivized game that allows users to earn rewards by participating in the game. It is a web-based application that uses blockchain technology to provide users with a secure and transparent gaming experience."
+            "Decentralized incentivized game that allows users to earn rewards by participating. Uses blockchain technology for a secure and transparent gaming experience."
           }
           src={"/projects/Moveon_Showcase.mp4"}
         />

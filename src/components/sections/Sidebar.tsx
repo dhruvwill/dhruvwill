@@ -109,7 +109,7 @@ const Sidebar = (props: Props) => {
         <SidebarSeperatorWithTitle title="Socials" />
         <SidebarItem
           title="Resume"
-          link="https://drive.google.com/file/d/1-7O1lQtdZBMLv454SYMtPu3n6DpWhXDg/view?usp=drive_link"
+          link="https://drive.google.com/file/d/1v9J1klAGXfiaxlsXyQhOjejoUS1zma7O/view"
           icon={<MdDocumentScanner size={16} />}
           endIcon={<HiArrowUpRight size={16} />}
           externalLink
@@ -130,7 +130,7 @@ const Sidebar = (props: Props) => {
         />
         <SidebarItem
           title="Mail"
-          link="mailto:d@dhruvwill.com"
+          link="mailto:ddyhs25@gmail.com"
           icon={<GrMail size={16} />}
           endIcon={<HiArrowUpRight size={16} />}
           externalLink

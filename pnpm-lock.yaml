@@ -1,4 +1,5 @@
 lockfileVersion: '9.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
@@ -144,6 +145,7 @@ importers:
 
 packages:
 
+  '@alloc/quick-lru@5.2.0':
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
@@ -5331,9 +5333,11 @@ snapshots:
       type-detect: 4.0.8
 
   '@sinonjs/fake-timers@10.3.0':
+  '@sinonjs/fake-timers@10.3.0':
     dependencies:
       '@sinonjs/commons': 3.0.1
 
+  '@stitches/react@1.2.8(react@18.3.1)':
   '@stitches/react@1.2.8(react@18.3.1)':
     dependencies:
       react: 18.3.1
@@ -5361,14 +5365,18 @@ snapshots:
       - immer
 
   '@studio-freight/tempus@0.0.38': {}
+  '@studio-freight/tempus@0.0.38': {}
 
   '@swc/counter@0.1.3': {}
+  '@swc/counter@0.1.3': {}
 
+  '@swc/helpers@0.5.5':
   '@swc/helpers@0.5.5':
     dependencies:
       '@swc/counter': 0.1.3
       tslib: 2.8.1
 
+  '@tweenjs/tween.js@23.1.3': {}
   '@tweenjs/tween.js@23.1.3': {}
 
   '@tybys/wasm-util@0.10.1':
@@ -5451,6 +5459,7 @@ snapshots:
   '@types/prop-types@15.7.15': {}
 
   '@types/react-beautiful-dnd@13.1.8':
+  '@types/react-beautiful-dnd@13.1.8':
     dependencies:
       '@types/react': 18.3.28
 
@@ -5458,6 +5467,7 @@ snapshots:
     dependencies:
       '@types/react': 18.3.28
 
+  '@types/react-reconciler@0.26.7':
   '@types/react-reconciler@0.26.7':
     dependencies:
       '@types/react': 18.3.28
@@ -5478,6 +5488,7 @@ snapshots:
       '@types/prop-types': 15.7.15
       csstype: 3.2.3
 
+  '@types/stack-utils@2.0.3': {}
   '@types/stack-utils@2.0.3': {}
 
   '@types/stats.js@0.17.4': {}
@@ -5518,6 +5529,7 @@ snapshots:
       - supports-color
 
   '@typescript-eslint/scope-manager@7.2.0':
+  '@typescript-eslint/scope-manager@7.2.0':
     dependencies:
       '@typescript-eslint/types': 7.2.0
       '@typescript-eslint/visitor-keys': 7.2.0
@@ -5539,6 +5551,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@typescript-eslint/visitor-keys@7.2.0':
   '@typescript-eslint/visitor-keys@7.2.0':
     dependencies:
       '@typescript-eslint/types': 7.2.0
@@ -5615,9 +5628,11 @@ snapshots:
   '@webgpu/types@0.1.69': {}
 
   abort-controller@3.0.0:
+  abort-controller@3.0.0:
     dependencies:
       event-target-shim: 5.0.1
 
+  accepts@1.3.8:
   accepts@1.3.8:
     dependencies:
       mime-types: 2.1.35
@@ -5649,11 +5664,14 @@ snapshots:
       color-convert: 2.0.1
 
   ansi-styles@5.2.0: {}
+  ansi-styles@5.2.0: {}
 
   ansi-styles@6.2.3: {}
 
   any-promise@1.3.0: {}
+  any-promise@1.3.0: {}
 
+  anymatch@3.1.3:
   anymatch@3.1.3:
     dependencies:
       normalize-path: 3.0.0
@@ -5662,9 +5680,11 @@ snapshots:
   arg@5.0.2: {}
 
   argparse@1.0.10:
+  argparse@1.0.10:
     dependencies:
       sprintf-js: 1.0.3
 
+  argparse@2.0.1: {}
   argparse@2.0.1: {}
 
   aria-hidden@1.2.6:
@@ -5834,6 +5854,7 @@ snapshots:
       require-from-string: 2.0.2
 
   binary-extensions@2.3.0: {}
+  binary-extensions@2.3.0: {}
 
   bindall-standalone@1.0.5: {}
 
@@ -5847,6 +5868,7 @@ snapshots:
       balanced-match: 1.0.2
 
   braces@3.0.3:
+  braces@3.0.3:
     dependencies:
       fill-range: 7.1.1
 
@@ -5859,9 +5881,11 @@ snapshots:
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
   bser@2.1.1:
+  bser@2.1.1:
     dependencies:
       node-int64: 0.4.0
 
+  buffer-from@1.1.2: {}
   buffer-from@1.1.2: {}
 
   buffer@6.0.3:
@@ -5869,6 +5893,7 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
+  busboy@1.6.0:
   busboy@1.6.0:
     dependencies:
       streamsearch: 1.1.0
@@ -5934,6 +5959,7 @@ snapshots:
       fsevents: 2.3.3
 
   chrome-launcher@0.15.2:
+  chrome-launcher@0.15.2:
     dependencies:
       '@types/node': 20.19.33
       escape-string-regexp: 4.0.0
@@ -5976,6 +6002,7 @@ snapshots:
       phenomenon: 1.6.0
 
   color-convert@2.0.1:
+  color-convert@2.0.1:
     dependencies:
       color-name: 1.1.4
 
@@ -6003,6 +6030,7 @@ snapshots:
       - supports-color
 
   convert-source-map@2.0.0: {}
+  convert-source-map@2.0.0: {}
 
   cross-env@7.0.3:
     dependencies:
@@ -6015,13 +6043,16 @@ snapshots:
       which: 2.0.2
 
   css-box-model@1.2.1:
+  css-box-model@1.2.1:
     dependencies:
       tiny-invariant: 1.3.3
 
   cssesc@3.0.0: {}
+  cssesc@3.0.0: {}
 
   csstype@3.2.3: {}
 
+  damerau-levenshtein@1.0.8: {}
   damerau-levenshtein@1.0.8: {}
 
   data-view-buffer@1.0.2:
@@ -6049,6 +6080,8 @@ snapshots:
       ms: 2.0.0
 
   debug@3.2.7:
+
+  debug@3.2.7:
     dependencies:
       ms: 2.1.3
 
@@ -6069,6 +6102,7 @@ snapshots:
       gopd: 1.2.0
 
   define-properties@1.2.1:
+  define-properties@1.2.1:
     dependencies:
       define-data-property: 1.1.4
       has-property-descriptors: 1.0.2
@@ -6085,23 +6119,30 @@ snapshots:
       webgl-constants: 1.1.1
 
   detect-node-es@1.1.0: {}
+  detect-node-es@1.1.0: {}
 
+  devlop@1.1.0:
   devlop@1.1.0:
     dependencies:
       dequal: 2.0.3
 
   didyoumean@1.2.2: {}
+  didyoumean@1.2.2: {}
 
+  dir-glob@3.0.1:
   dir-glob@3.0.1:
     dependencies:
       path-type: 4.0.0
 
   dlv@1.1.3: {}
+  dlv@1.1.3: {}
 
+  doctrine@2.1.0:
   doctrine@2.1.0:
     dependencies:
       esutils: 2.0.3
 
+  doctrine@3.0.0:
   doctrine@3.0.0:
     dependencies:
       esutils: 2.0.3
@@ -6263,6 +6304,7 @@ snapshots:
       - supports-color
 
   eslint-import-resolver-node@0.3.9:
+  eslint-import-resolver-node@0.3.9:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.16.1
@@ -6371,10 +6413,12 @@ snapshots:
       string.prototype.repeat: 1.0.0
 
   eslint-scope@7.2.2:
+  eslint-scope@7.2.2:
     dependencies:
       esrecurse: 4.3.0
       estraverse: 5.3.0
 
+  eslint-visitor-keys@3.4.3: {}
   eslint-visitor-keys@3.4.3: {}
 
   eslint@8.57.1:
@@ -6421,6 +6465,7 @@ snapshots:
       - supports-color
 
   espree@9.6.1:
+  espree@9.6.1:
     dependencies:
       acorn: 8.15.0
       acorn-jsx: 5.3.2(acorn@8.15.0)
@@ -6432,6 +6477,7 @@ snapshots:
     dependencies:
       estraverse: 5.3.0
 
+  esrecurse@4.3.0:
   esrecurse@4.3.0:
     dependencies:
       estraverse: 5.3.0
@@ -6453,12 +6499,15 @@ snapshots:
       is-extendable: 0.1.1
 
   extend-shallow@3.0.2:
+  extend-shallow@3.0.2:
     dependencies:
       assign-symbols: 1.0.0
       is-extendable: 1.0.1
 
   extend@3.0.2: {}
+  extend@3.0.2: {}
 
+  fast-deep-equal@3.1.3: {}
   fast-deep-equal@3.1.3: {}
 
   fast-glob@3.3.3:
@@ -6470,7 +6519,9 @@ snapshots:
       micromatch: 4.0.8
 
   fast-json-stable-stringify@2.1.0: {}
+  fast-json-stable-stringify@2.1.0: {}
 
+  fast-levenshtein@2.0.6: {}
   fast-levenshtein@2.0.6: {}
 
   fastq@1.20.1:
@@ -6479,6 +6530,7 @@ snapshots:
 
   fb-dotslash@0.5.8: {}
 
+  fb-watchman@2.0.2:
   fb-watchman@2.0.2:
     dependencies:
       bser: 2.1.1
@@ -6492,17 +6544,21 @@ snapshots:
   fflate@0.8.2: {}
 
   file-entry-cache@6.0.1:
+  file-entry-cache@6.0.1:
     dependencies:
       flat-cache: 3.2.0
 
+  file-selector@0.5.0:
   file-selector@0.5.0:
     dependencies:
       tslib: 2.8.1
 
   fill-range@7.1.1:
+  fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
 
+  finalhandler@1.1.2:
   finalhandler@1.1.2:
     dependencies:
       debug: 2.6.9
@@ -6521,10 +6577,12 @@ snapshots:
       path-exists: 4.0.0
 
   find-up@5.0.0:
+  find-up@5.0.0:
     dependencies:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
+  flat-cache@3.2.0:
   flat-cache@3.2.0:
     dependencies:
       flatted: 3.3.3
@@ -6539,6 +6597,7 @@ snapshots:
     dependencies:
       is-callable: 1.2.7
 
+  for-in@1.0.2: {}
   for-in@1.0.2: {}
 
   foreground-child@3.3.1:
@@ -6562,6 +6621,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
+  function-bind@1.1.2: {}
   function-bind@1.1.2: {}
 
   function.prototype.name@1.1.8:
@@ -6595,6 +6655,7 @@ snapshots:
       math-intrinsics: 1.1.0
 
   get-nonce@1.0.1: {}
+  get-nonce@1.0.1: {}
 
   get-package-type@0.1.0: {}
 
@@ -6614,15 +6675,19 @@ snapshots:
       resolve-pkg-maps: 1.0.0
 
   get-value@2.0.6: {}
+  get-value@2.0.6: {}
 
+  glob-parent@5.1.2:
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
 
   glob-parent@6.0.2:
+  glob-parent@6.0.2:
     dependencies:
       is-glob: 4.0.3
 
+  glob@10.3.10:
   glob@10.3.10:
     dependencies:
       foreground-child: 3.3.1
@@ -6645,10 +6710,12 @@ snapshots:
       type-fest: 0.20.2
 
   globalthis@1.0.4:
+  globalthis@1.0.4:
     dependencies:
       define-properties: 1.2.1
       gopd: 1.2.0
 
+  globby@11.1.0:
   globby@11.1.0:
     dependencies:
       array-union: 2.1.0
@@ -6687,6 +6754,7 @@ snapshots:
       has-symbols: 1.1.0
 
   hasown@2.0.2:
+  hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
 
@@ -6701,6 +6769,7 @@ snapshots:
       vfile-location: 5.0.3
       web-namespaces: 2.0.1
 
+  hast-util-parse-selector@4.0.0:
   hast-util-parse-selector@4.0.0:
     dependencies:
       '@types/hast': 3.0.4
@@ -6752,6 +6821,7 @@ snapshots:
       zwitch: 2.0.4
 
   hast-util-whitespace@3.0.0:
+  hast-util-whitespace@3.0.0:
     dependencies:
       '@types/hast': 3.0.4
 
@@ -6779,6 +6849,7 @@ snapshots:
 
   html-url-attributes@3.0.1: {}
 
+  html-void-elements@3.0.0: {}
   html-void-elements@3.0.0: {}
 
   http-errors@2.0.1:
@@ -6812,12 +6883,15 @@ snapshots:
       resolve-from: 4.0.0
 
   imurmurhash@0.1.4: {}
+  imurmurhash@0.1.4: {}
 
+  inflight@1.0.6:
   inflight@1.0.6:
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
 
+  inherits@2.0.4: {}
   inherits@2.0.4: {}
 
   inline-style-parser@0.2.7: {}
@@ -6829,11 +6903,14 @@ snapshots:
       side-channel: 1.1.0
 
   invariant@2.2.4:
+  invariant@2.2.4:
     dependencies:
       loose-envify: 1.4.0
 
   is-alphabetical@2.0.1: {}
+  is-alphabetical@2.0.1: {}
 
+  is-alphanumerical@2.0.1:
   is-alphanumerical@2.0.1:
     dependencies:
       is-alphabetical: 2.0.1
@@ -6857,6 +6934,7 @@ snapshots:
     dependencies:
       has-bigints: 1.1.0
 
+  is-binary-path@2.1.0:
   is-binary-path@2.1.0:
     dependencies:
       binary-extensions: 2.3.0
@@ -6898,11 +6976,13 @@ snapshots:
       is-plain-object: 2.0.4
 
   is-extglob@2.1.1: {}
+  is-extglob@2.1.1: {}
 
   is-finalizationregistry@1.1.1:
     dependencies:
       call-bound: 1.0.4
 
+  is-fullwidth-code-point@3.0.0: {}
   is-fullwidth-code-point@3.0.0: {}
 
   is-generator-function@1.1.2:
@@ -6913,6 +6993,7 @@ snapshots:
       has-tostringtag: 1.0.2
       safe-regex-test: 1.1.0
 
+  is-glob@4.0.3:
   is-glob@4.0.3:
     dependencies:
       is-extglob: 2.1.1
@@ -6929,15 +7010,20 @@ snapshots:
       has-tostringtag: 1.0.2
 
   is-number@7.0.0: {}
+  is-number@7.0.0: {}
 
+  is-path-inside@3.0.3: {}
   is-path-inside@3.0.3: {}
 
   is-plain-obj@4.1.0: {}
+  is-plain-obj@4.1.0: {}
 
+  is-plain-object@2.0.4:
   is-plain-object@2.0.4:
     dependencies:
       isobject: 3.0.1
 
+  is-promise@2.2.2: {}
   is-promise@2.2.2: {}
 
   is-regex@1.2.1:
@@ -6947,6 +7033,7 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
+  is-set@2.0.3: {}
   is-set@2.0.3: {}
 
   is-shared-array-buffer@1.0.4:
@@ -6979,6 +7066,7 @@ snapshots:
       call-bound: 1.0.4
       get-intrinsic: 1.3.0
 
+  is-wsl@2.2.0:
   is-wsl@2.2.0:
     dependencies:
       is-docker: 2.2.1
@@ -7018,6 +7106,7 @@ snapshots:
       - '@types/react'
 
   jackspeak@2.3.6:
+  jackspeak@2.3.6:
     dependencies:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
@@ -7032,6 +7121,7 @@ snapshots:
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
+  jest-get-type@29.6.3: {}
   jest-get-type@29.6.3: {}
 
   jest-haste-map@29.7.0:
@@ -7063,6 +7153,7 @@ snapshots:
       stack-utils: 2.0.6
 
   jest-mock@29.7.0:
+  jest-mock@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
       '@types/node': 20.19.33
@@ -7070,6 +7161,7 @@ snapshots:
 
   jest-regex-util@29.6.3: {}
 
+  jest-util@29.7.0:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
@@ -7080,6 +7172,7 @@ snapshots:
       picomatch: 2.3.1
 
   jest-validate@29.7.0:
+  jest-validate@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
       camelcase: 6.3.0
@@ -7088,6 +7181,7 @@ snapshots:
       leven: 3.1.0
       pretty-format: 29.7.0
 
+  jest-worker@29.7.0:
   jest-worker@29.7.0:
     dependencies:
       '@types/node': 20.19.33
@@ -7170,16 +7264,20 @@ snapshots:
       - '@types/react'
 
   leven@3.1.0: {}
+  leven@3.1.0: {}
 
+  levn@0.4.1:
   levn@0.4.1:
     dependencies:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
   lie@3.3.0:
+  lie@3.3.0:
     dependencies:
       immediate: 3.0.6
 
+  lighthouse-logger@1.4.2:
   lighthouse-logger@1.4.2:
     dependencies:
       debug: 2.6.9
@@ -7190,15 +7288,18 @@ snapshots:
   lilconfig@3.1.3: {}
 
   lines-and-columns@1.2.4: {}
+  lines-and-columns@1.2.4: {}
 
   locate-path@5.0.0:
     dependencies:
       p-locate: 4.1.0
 
   locate-path@6.0.0:
+  locate-path@6.0.0:
     dependencies:
       p-locate: 5.0.0
 
+  locomotive-scroll@4.1.4:
   locomotive-scroll@4.1.4:
     dependencies:
       bezier-easing: 2.1.0
@@ -7216,11 +7317,14 @@ snapshots:
       js-tokens: 4.0.0
 
   lru-cache@10.4.3: {}
+  lru-cache@10.4.3: {}
 
+  lru-cache@5.1.1:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
 
+  lucide-react@0.400.0(react@18.3.1):
   lucide-react@0.400.0(react@18.3.1):
     dependencies:
       react: 18.3.1
@@ -7284,6 +7388,7 @@ snapshots:
       - supports-color
 
   mdast-util-mdxjs-esm@2.0.1:
+  mdast-util-mdxjs-esm@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
@@ -7294,6 +7399,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  mdast-util-phrasing@4.1.0:
   mdast-util-phrasing@4.1.0:
     dependencies:
       '@types/mdast': 4.0.4
@@ -7324,13 +7430,17 @@ snapshots:
       zwitch: 2.0.4
 
   mdast-util-to-string@4.0.0:
+  mdast-util-to-string@4.0.0:
     dependencies:
       '@types/mdast': 4.0.4
 
   memoize-one@5.2.1: {}
+  memoize-one@5.2.1: {}
 
   merge-stream@2.0.0: {}
+  merge-stream@2.0.0: {}
 
+  merge-value@1.0.0:
   merge-value@1.0.0:
     dependencies:
       get-value: 2.0.6
@@ -7338,6 +7448,7 @@ snapshots:
       mixin-deep: 1.3.2
       set-value: 2.0.1
 
+  merge2@1.4.1: {}
   merge2@1.4.1: {}
 
   meshline@3.3.1(three@0.167.1):
@@ -7672,17 +7783,22 @@ snapshots:
       brace-expansion: 1.1.12
 
   minimatch@9.0.3:
+  minimatch@9.0.3:
     dependencies:
       brace-expansion: 2.0.2
 
+  minimatch@9.0.5:
   minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.2
 
   minimist@1.2.8: {}
+  minimist@1.2.8: {}
 
   minipass@7.1.2: {}
+  minipass@7.1.2: {}
 
+  mixin-deep@1.3.2:
   mixin-deep@1.3.2:
     dependencies:
       for-in: 1.0.2
@@ -7783,12 +7899,14 @@ snapshots:
       es-object-atoms: 1.1.1
 
   object.fromentries@2.0.8:
+  object.fromentries@2.0.8:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
       es-abstract: 1.24.1
       es-object-atoms: 1.1.1
 
+  object.groupby@1.0.3:
   object.groupby@1.0.3:
     dependencies:
       call-bind: 1.0.8
@@ -7803,13 +7921,16 @@ snapshots:
       es-object-atoms: 1.1.1
 
   on-finished@2.3.0:
+  on-finished@2.3.0:
     dependencies:
       ee-first: 1.1.1
 
   on-finished@2.4.1:
+  on-finished@2.4.1:
     dependencies:
       ee-first: 1.1.1
 
+  once@1.4.0:
   once@1.4.0:
     dependencies:
       wrappy: 1.0.2
@@ -7835,9 +7956,11 @@ snapshots:
       safe-push-apply: 1.0.0
 
   p-limit@2.3.0:
+  p-limit@2.3.0:
     dependencies:
       p-try: 2.2.0
 
+  p-limit@3.1.0:
   p-limit@3.1.0:
     dependencies:
       yocto-queue: 0.1.0
@@ -7846,6 +7969,7 @@ snapshots:
     dependencies:
       p-limit: 2.3.0
 
+  p-locate@5.0.0:
   p-locate@5.0.0:
     dependencies:
       p-limit: 3.1.0
@@ -7877,9 +8001,12 @@ snapshots:
   path-is-absolute@1.0.1: {}
 
   path-key@3.1.1: {}
+  path-key@3.1.1: {}
 
   path-parse@1.0.7: {}
+  path-parse@1.0.7: {}
 
+  path-scurry@1.11.1:
   path-scurry@1.11.1:
     dependencies:
       lru-cache: 10.4.3
@@ -7932,7 +8059,9 @@ snapshots:
       util-deprecate: 1.0.2
 
   postcss-value-parser@4.2.0: {}
+  postcss-value-parser@4.2.0: {}
 
+  postcss@8.4.31:
   postcss@8.4.31:
     dependencies:
       nanoid: 3.3.11
@@ -7956,14 +8085,17 @@ snapshots:
       react-is: 18.3.1
 
   promise-worker-transferable@1.0.4:
+  promise-worker-transferable@1.0.4:
     dependencies:
       is-promise: 2.2.2
       lie: 3.3.0
 
   promise@8.3.0:
+  promise@8.3.0:
     dependencies:
       asap: 2.0.6
 
+  prop-types@15.8.1:
   prop-types@15.8.1:
     dependencies:
       loose-envify: 1.4.0
@@ -8004,6 +8136,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
 
   react-composer@5.0.3(react@18.3.1):
+  react-composer@5.0.3(react@18.3.1):
     dependencies:
       prop-types: 15.8.1
       react: 18.3.1
@@ -8017,11 +8150,13 @@ snapshots:
       - utf-8-validate
 
   react-dom@18.3.1(react@18.3.1):
+  react-dom@18.3.1(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
       react: 18.3.1
       scheduler: 0.23.2
 
+  react-dropzone@12.1.0(react@18.3.1):
   react-dropzone@12.1.0(react@18.3.1):
     dependencies:
       attr-accept: 2.2.5
@@ -8118,11 +8253,13 @@ snapshots:
       - utf-8-validate
 
   react-reconciler@0.27.0(react@18.3.1):
+  react-reconciler@0.27.0(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
       react: 18.3.1
       scheduler: 0.21.0
 
+  react-reconciler@0.29.2(react@18.3.1):
   react-reconciler@0.29.2(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
@@ -8197,15 +8334,18 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
 
   react-zdog@1.2.2:
+  react-zdog@1.2.2:
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       resize-observer-polyfill: 1.5.1
 
   react@18.3.1:
+  react@18.3.1:
     dependencies:
       loose-envify: 1.4.0
 
+  read-cache@1.0.0:
   read-cache@1.0.0:
     dependencies:
       pify: 2.3.0
@@ -8247,6 +8387,7 @@ snapshots:
       vfile: 6.0.3
 
   remark-parse@11.0.0:
+  remark-parse@11.0.0:
     dependencies:
       '@types/mdast': 4.0.4
       mdast-util-from-markdown: 2.0.2
@@ -8282,6 +8423,7 @@ snapshots:
       supports-preserve-symlinks-flag: 1.0.0
 
   resolve@2.0.0-next.5:
+  resolve@2.0.0-next.5:
     dependencies:
       is-core-module: 2.16.1
       path-parse: 1.0.7
@@ -8293,6 +8435,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
+  run-parallel@1.2.0:
   run-parallel@1.2.0:
     dependencies:
       queue-microtask: 1.2.3
@@ -8349,6 +8492,7 @@ snapshots:
       - supports-color
 
   serialize-error@2.1.0: {}
+  serialize-error@2.1.0: {}
 
   serve-static@1.16.3:
     dependencies:
@@ -8360,6 +8504,7 @@ snapshots:
       - supports-color
 
   set-function-length@1.2.2:
+  set-function-length@1.2.2:
     dependencies:
       define-data-property: 1.1.4
       es-errors: 1.3.0
@@ -8368,6 +8513,7 @@ snapshots:
       gopd: 1.2.0
       has-property-descriptors: 1.0.2
 
+  set-function-name@2.0.2:
   set-function-name@2.0.2:
     dependencies:
       define-data-property: 1.1.4
@@ -8382,6 +8528,7 @@ snapshots:
       es-object-atoms: 1.1.1
 
   set-value@2.0.1:
+  set-value@2.0.1:
     dependencies:
       extend-shallow: 2.0.1
       is-extendable: 0.1.1
@@ -8394,6 +8541,7 @@ snapshots:
     dependencies:
       shebang-regex: 3.0.0
 
+  shebang-regex@3.0.0: {}
   shebang-regex@3.0.0: {}
 
   shell-quote@1.8.3: {}
@@ -8456,9 +8604,11 @@ snapshots:
   stable-hash@0.0.5: {}
 
   stack-utils@2.0.6:
+  stack-utils@2.0.6:
     dependencies:
       escape-string-regexp: 2.0.0
 
+  stackframe@1.3.4: {}
   stackframe@1.3.4: {}
 
   stacktrace-parser@0.1.11:
@@ -8471,7 +8621,9 @@ snapshots:
       three: 0.167.1
 
   stats.js@0.17.0: {}
+  stats.js@0.17.0: {}
 
+  statuses@1.5.0: {}
   statuses@1.5.0: {}
 
   statuses@2.0.2: {}
@@ -8482,13 +8634,16 @@ snapshots:
       internal-slot: 1.1.0
 
   streamsearch@1.1.0: {}
+  streamsearch@1.1.0: {}
 
+  string-width@4.2.3:
   string-width@4.2.3:
     dependencies:
       emoji-regex: 8.0.0
       is-fullwidth-code-point: 3.0.0
       strip-ansi: 6.0.1
 
+  string-width@5.1.2:
   string-width@5.1.2:
     dependencies:
       eastasianwidth: 0.2.0
@@ -8518,6 +8673,7 @@ snapshots:
       side-channel: 1.1.0
 
   string.prototype.repeat@1.0.0:
+  string.prototype.repeat@1.0.0:
     dependencies:
       define-properties: 1.2.1
       es-abstract: 1.24.1
@@ -8540,6 +8696,7 @@ snapshots:
       es-object-atoms: 1.1.1
 
   string.prototype.trimstart@1.0.8:
+  string.prototype.trimstart@1.0.8:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
@@ -8550,6 +8707,7 @@ snapshots:
       character-entities-html4: 2.1.0
       character-entities-legacy: 3.0.0
 
+  strip-ansi@6.0.1:
   strip-ansi@6.0.1:
     dependencies:
       ansi-regex: 5.0.1
@@ -8592,11 +8750,14 @@ snapshots:
       has-flag: 4.0.0
 
   supports-color@8.1.1:
+  supports-color@8.1.1:
     dependencies:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+  supports-preserve-symlinks-flag@1.0.0: {}
 
+  suspend-react@0.1.3(react@18.3.1):
   suspend-react@0.1.3(react@18.3.1):
     dependencies:
       react: 18.3.1
@@ -8654,6 +8815,7 @@ snapshots:
     dependencies:
       thenify: 3.3.1
 
+  thenify@3.3.1:
   thenify@3.3.1:
     dependencies:
       any-promise: 1.3.0
@@ -8716,7 +8878,9 @@ snapshots:
       typescript: 5.9.3
 
   ts-interface-checker@0.1.13: {}
+  ts-interface-checker@0.1.13: {}
 
+  tsconfig-paths@3.15.0:
   tsconfig-paths@3.15.0:
     dependencies:
       '@types/json5': 0.0.29
@@ -8735,13 +8899,17 @@ snapshots:
       - react
 
   type-check@0.4.0:
+  type-check@0.4.0:
     dependencies:
       prelude-ls: 1.2.1
 
   type-detect@4.0.8: {}
+  type-detect@4.0.8: {}
 
   type-fest@0.20.2: {}
+  type-fest@0.20.2: {}
 
+  type-fest@0.7.1: {}
   type-fest@0.7.1: {}
 
   typed-array-buffer@1.0.3:
@@ -8803,6 +8971,7 @@ snapshots:
       '@types/unist': 3.0.3
 
   unist-util-position@5.0.0:
+  unist-util-position@5.0.0:
     dependencies:
       '@types/unist': 3.0.3
 
@@ -8854,6 +9023,7 @@ snapshots:
       picocolors: 1.1.1
 
   uri-js@4.4.1:
+  uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
 
@@ -8887,6 +9057,7 @@ snapshots:
       react: 18.3.1
 
   util-deprecate@1.0.2: {}
+  util-deprecate@1.0.2: {}
 
   utility-types@3.11.0: {}
 
@@ -8910,6 +9081,7 @@ snapshots:
       vfile-message: 4.0.3
 
   virtual-scroll@1.5.2:
+  virtual-scroll@1.5.2:
     dependencies:
       bindall-standalone: 1.0.5
       lethargy: 1.0.9
@@ -8917,7 +9089,9 @@ snapshots:
       tiny-emitter: 1.2.0
 
   vlq@1.0.1: {}
+  vlq@1.0.1: {}
 
+  walker@1.0.8:
   walker@1.0.8:
     dependencies:
       makeerror: 1.0.12
@@ -8955,6 +9129,7 @@ snapshots:
       which-typed-array: 1.1.20
 
   which-collection@1.0.2:
+  which-collection@1.0.2:
     dependencies:
       is-map: 2.0.3
       is-set: 2.0.3
@@ -8972,9 +9147,11 @@ snapshots:
       has-tostringtag: 1.0.2
 
   which@2.0.2:
+  which@2.0.2:
     dependencies:
       isexe: 2.0.0
 
+  word-wrap@1.2.5: {}
   word-wrap@1.2.5: {}
 
   wrap-ansi@7.0.0:
@@ -8989,6 +9166,7 @@ snapshots:
       string-width: 5.1.2
       strip-ansi: 7.1.2
 
+  wrappy@1.0.2: {}
   wrappy@1.0.2: {}
 
   write-file-atomic@4.0.2:
@@ -9037,4 +9215,5 @@ snapshots:
       react: 18.3.1
       use-sync-external-store: 1.6.0(react@18.3.1)
 
+  zwitch@2.0.4: {}
   zwitch@2.0.4: {}

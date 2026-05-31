@@ -38,10 +38,11 @@ export const ProjectCard = ({
       <motion.div
         className="break-inside-avoid"
         initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, amount: 0.1 }}
         transition={{
           duration: 0.6,
-          delay: Math.random() * 0.3,
+          delay: Math.random() * 0.2,
           ease: [0.43, 0.13, 0.23, 0.96],
         }}
       >
@@ -127,14 +128,6 @@ export const ProjectContainer = ({
       <div className="columns-2 sm:columns-3 lg:columns-4 gap-3 mx-auto space-y-2">
         {children}
       </div>
-      <motion.h6
-        className="text-md text-center mt-5 text-muted-foreground"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-      >
-        🚧 More awesomeness under construction 🚧
-      </motion.h6>
     </motion.div>
   );
 };

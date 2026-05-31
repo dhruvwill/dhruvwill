@@ -14,29 +14,43 @@ import { HiArrowUpRight } from "react-icons/hi2";
 const work = {
   workHistory: [
     {
+      role: "Software Engineer",
+      company: "Design Instantly (Founder)",
+      duration: "Jan 2026 - Present",
+      additionalInfo:
+        "Founded and built a design automation platform with AI-powered template generation. Architected a full-stack system with Next.js, NestJS, AWS, and AI integrations using LangChain, OpenRouter, and Fal.ai.",
+    },
+    {
+      role: "Full Stack Developer",
+      company: "Quicko",
+      duration: "Jan 2025 - Dec 2025",
+      additionalInfo:
+        "Worked on the Income Tax Mobile App and Glyde platform, built features for tax computation, foreign income, tax relief, and loss adjustment. Developed Crypto PnL and Tax PnL calculator APIs.",
+    },
+    {
       role: "App Developer Intern",
-      company: "Prashant Gamatex (Prasad Group)",
+      company: "Prasad Group of Companies",
       duration: "May 2024 - Aug 2024",
       additionalInfo:
-        "Developed cross platform mobile application using React Native (Expo). Created a robust backend using Node.js, Express, Multer & JWT. 100% Adoption in 2 weeks. ",
+        "Developed cross-platform mobile app using React Native (Expo). Created backend with Node.js, Express & JWT. 100% adoption in 2 weeks across 50+ users.",
     },
     {
       role: "Web Developer Intern",
       company: "PDEU Admin",
-      duration: "Jan 2023 - July 2023",
+      duration: "Jan 2023 - Jul 2023",
       additionalInfo:
-        "Developed a web-based application for the university admin and HR department for annual evaluation of the employees using Django, BootstrapCSS, Javascript, and SQLite. Deployed on Private VM using Nginx and Gunicorn.",
+        "Built web portal for university employee appraisal using Django, Bootstrap, and JavaScript. Deployed on private Linux VM.",
     },
     {
       role: "Instructor (Volunteer)",
-      company: "CDAC Govt.",
-      duration: "Sep 2022 - Jan 2023",
+      company: "CDAC",
+      duration: "Aug 2022 - Jan 2023",
       additionalInfo:
-        "Conducted programming workshops for beginners. Taught fundamentals of web development including HTML, CSS, JavaScript & React. Taught Programming using C, C++, Java and Python.",
+        "Taught 30+ students web development, programming basics, and React.js. Created curriculum and led group projects.",
     },
   ],
   workSummary: {
-    totalExperience: "1.5 yrs",
+    totalExperience: "3+ yrs",
   },
 };
 
